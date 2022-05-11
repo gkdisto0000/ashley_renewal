@@ -1,0 +1,224 @@
+/* 헤더 */
+div.hdrWrap>div.menuTop>div.logo{
+    width: 100%;
+    line-height: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+div.hdrWrap>div.menuTop>ul.nav{
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    height: 40px;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+div.hdrWrap>div.menuTop>ul.nav>li{
+    font-size: 8px;
+    line-height: 20px;
+    width: calc(100% / 4);
+    margin: 0px;
+    margin: 10px 0px;
+}
+
+/* 메인 */
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 25px;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 13px;
+}
+div.mainWrap{
+    height: 80px;
+}
+div.mainWrap>div.main{
+    padding-top: 5px;
+}
+
+
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content>div.header>h3{
+font-size: 28px;
+line-height: 40px;
+text-align: center;
+font-family: 'DMSerifDisplay-Regular';
+}
+
+/* 컨텐츠 1 히스토리 */
+
+div.cntWrap>div.content.cnt01{
+    height: 320px;
+    }
+
+div.cntWrap>div.content.cnt01>div.header>h3{
+    top: 0;
+}
+
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: -120px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artWrap>div.article>div.texts>p{
+    padding: 0;
+    font-size: 11px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artWrap>div.article{
+    width: calc(100% / 4 - 10px);
+    margin: 0 3px;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    width: 90%;
+}
+div.cntWrap>div.content.cnt01>div.dim{
+    height: 160px;
+    margin-top: -160px;
+}
+div.cntWrap>div.content.cnt01>div.wrap{
+    height: 160px;
+}
+
+/* 컨텐츠 2  맛을 경험*/
+div.cntWrap>div.content.cnt02>div.header>p{
+    font-size: 13px;
+}
+div.cntWrap>div.content.cnt02>div.header>h4{
+    font-size: 11px;
+    width: 90%;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 80px;
+}
+
+/* 컨텐츠 3 미션 */
+
+div.cntWrap>div.content.cnt03>div.header{
+    margin-top: -40px;
+}
+div.cntWrap>div.content.cnt03>div.header::after{
+    margin-top: -230px;
+    height: 260px;
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+    font-size: 11px;
+    padding-top: 20px;
+
+}
+div.cntWrap>div.content.cnt03>div.header>h4{
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section{
+    display: none;
+}
+
+/* 컨텐츠 4 */
+div.cntWrap>div.content.cnt04{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt04>div.header>p{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article{
+    width: calc(100% / 4 * 2.8);
+    height: 50px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article:nth-child(2){
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article:nth-child(3){
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts i{
+    font-size: 30px;
+    width: calc(100% / 6);
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.text p{
+    font-size: 10px;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.text h4{
+    display: none;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.text{
+    padding: 0px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts>div.text i{
+    margin-right: 0;
+    font-size: 20px;
+    float: left;
+    margin-left: 95%;
+    margin-top: -25px;
+}
+
+/* 배너 */
+div.bnrWrap>div.bgi{
+    margin-top: 40px;
+    height: 240px;
+}
+div.bnrWrap>div.banner{
+    margin-top: -240px;
+}
+div.bnrWrap>div.banner>div.bnrTop>div.bnrRight{
+    width: 50%;
+}
+div.bnrWrap>div.banner>div.bnrTop>div.bnrRight>div.text h5{
+    line-height: 20px;
+    font-size: 18px;
+}
+div.bnrWrap>div.banner>div.bnrTop>div.bnrRight>div.text h4{
+    font-size: 9px;
+    margin-top: -20px;
+}
+div.bnrWrap>div.banner>div.bnrTop>div.bnrLeft>div.texts{
+    margin-top: 160px;
+    height: 80px;
+    position: relative;
+    z-index: 500;
+    padding: 0;
+    padding-top: 20px;
+}
+
+/* 이부분 아래 버튼 있는 곳에도 똑같이 설정하기 */
+div.bnrWrap>div.banner>div.bnrBtm>div.bnrBtmTop{
+    height: 80px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.bnrBtmTop>div.texts p{
+    line-height: 20px;
+    font-size: 10px;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 0;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.bnrBtmTop>div.texts h4{
+    font-size: 12px;
+    line-height: 20px;
+}
+div.bnrWrap>div.banner>div.bnrBtm>div.bnrBtmTop>div.texts{
+    padding-top: 10px;
+}
+
+/* 푸터 */
+div.ftrWrap{
+    margin-top: 40px;
+}
+
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    font-size: 9px;
+    line-height: 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>select{
+    font-size: 8px;
+    height: 20px;
+    width: calc(100% / 4);
+    margin-left: calc(100% / 4 * 1.5);
+
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>p{
+    font-size: 9px;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    height: 160px;
+    padding-top: 20px;
+}

@@ -1,0 +1,336 @@
+
+/* 불필요한 스크롤 삭제 */
+/* html,body{
+    width: 100%;
+    overflow-x: hidden;
+} */
+
+
+/* 헤더 */
+div.hdrWrap{
+    background-color: #000;
+}
+div.hdrWrap>div.menuTop>ul.info{
+    display: none;
+}
+div.hdrWrap>div.menuTop{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.menuTop>div.logo{
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+div.hdrWrap>div.menuTop>ul.nav{
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-left: 0px;
+
+}
+div.hdrWrap>div.menuTop>ul.nav>li{
+    line-height: 80px;
+    width: calc(100% / 4);
+    margin-left: 0px;
+}
+div.hdrWrap>div.menuTop>ul.nav>li:nth-child(1){
+    margin-left: 0px;
+}
+
+
+/* 메인 */
+div.mainWrap{
+    margin-top: 0px;
+    height: 120px;
+}
+div.mainWrap>div.main{
+    padding-top: 30px;
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 27px;
+    height: 40px;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content div.header h3{
+    font-size: 32px;
+}
+
+/* 배너 공통 */
+div.bnrWrap div.banner{
+    width: 90%;
+    max-width: 700px;
+}
+
+/* 컨텐츠 1 service */
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+    font-size: 14px;
+    height: 40px;
+    overflow: hidden;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+    width: calc(100% / 8 * 3.5);
+    margin-right: 0px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+    margin-left: 0px;
+    width: calc(100% / 8 * 4);
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h5{
+    font-size: 18px;
+}
+
+
+div.cntWrap>div.content.cnt01>div.section>div.article>div.view>div.group>div.image.i2{
+    background-image: url('../images/sub_2/sub2-cnt01-02_tab.png');
+ 
+}
+
+div.cntWrap>div.content.cnt01>div.section>div.article>div.view>div.group>div.image.i3{
+    background-image: url('../images/sub_2/sub2-cnt01-03_tab.png');
+ 
+}
+
+div.cntWrap>div.content.cnt01>div.section>div.article>div.view>div.group>div.image.i4{
+    background-image: url('../images/sub_2/sub2-cnt01-04_tab.png');
+ 
+}
+
+/* banner2 store guide */
+div.bnrWrap.bnrWrap01{
+    height: 560px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.texts>p{
+    font-size: 15px;
+    width: calc(100% / 8 * 3.5);
+    line-height: 20px;
+    margin-left: calc(100% / 12 * 2.0);
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.btn{
+    float: left;
+    width: calc(100% / 8 * 1.5);
+    height: 30px;
+    line-height: 30px;
+    margin-left: calc(100% / 8 * 2.3);
+    margin-top: -30px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.texts{
+    padding: 0px;
+    padding-top: 40px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(1){
+    top: 140px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(2){
+    top: 260px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(3){
+    top: 250px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(4){
+    top: 68px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(5){
+    top: 25px;
+}
+
+/* 컨텐츠 2 product */
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{}
+div.cntWrap>div.content.cnt02>div.section{
+    width: calc(100% / 8 * 5 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.header{
+    width: calc(100% / 8 * 3 - 20px);
+    margin: 0px 10px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    font-size: 13px;
+}
+
+/* banner3 home restaurant */
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts{
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02{
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.video{
+    width: calc(100% / 8 * 6);
+    float: left;
+    margin-left: calc(100% / 8 );
+    margin-top: 40px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.video>video{
+    width: 100%;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>div.tags{
+    width: calc(100% / 8 * 4);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* 컨텐츠 3 ashley mealkit */
+div.cntWrap>div.content.cnt03>div.section>div.artBtm{
+    display: none;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(1)~div{
+    /* display: none; */
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.header>h3{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.header>p{
+    text-align: center;
+    margin-left: 0px;
+}
+/* div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(1){
+    width: 100%;
+} */
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.texts>h5{
+    font-size: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section div.article>div.texts>p{
+    font-size: 16px;
+}
+
+
+/* 컨텐츠 3 제이쿼리 모바일 */
+div.cntWrap>div.content.cnt03>div.section>div.artTop::after{
+    display: block;
+    clear: both;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop{
+    width: 300%;
+    touch-action: pan-y;
+    -ms-touch-action: pan-y;
+    transition: all 0.5s;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article{
+    float: left;
+    width: calc(100% / 3);
+    margin: 0;
+}
+
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(1)~div{
+    margin-top: 0px;
+}
+
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image.i1{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(1){
+    width: calc(100% / 3);
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(2){
+    width: calc(100% / 3);
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article:nth-child(3){
+    width: calc(100% / 3);
+}
+
+div.cntWrap>div.content.cnt03>div.section{
+    overflow: hidden;
+}
+
+/* paging */
+div.cntWrap>div.content.cnt03>div.section>ul.paging::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging{
+    width: calc(100% / 12 * 3);
+    height: 40px;
+    /* 점 없애기 */
+    list-style: none;
+    margin-left: calc(100% / 8 * 3.5);
+    min-width: 100px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li.on{
+    width: 25px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li{
+    width: 10px;
+    height: 10px;
+    background-color: #222;
+    float: left;
+    border-radius: 10px;
+    margin: 3px;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+
+
+
+
+/* 푸터 */
+div.ftrWrap{}
+div.ftrWrap>div.footer{}
+div.ftrWrap>div.footer>div.ftrTop{
+    position: inherit;
+    width: 100vw;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    position: inherit;
+    width: 100vw;
+    height: 280px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts{
+    width: 90%;
+    max-width: 700px;
+}
+
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    font-size: 15px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>ul{
+    width: 100%;
+
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>p{
+    float: none;
+    font-size: 15px;
+    margin-left: calc(100% / 10);
+    width: 80%;
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>select{
+    float: none;
+    margin-left: calc(100% / 8 * 3.3);
+    font-size: 15px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    margin: 0 auto;
+}

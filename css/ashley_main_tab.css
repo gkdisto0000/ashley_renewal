@@ -1,0 +1,330 @@
+/* 불필요한 스크롤 삭제 */
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* 헤더 */
+div.hdrWrap{
+    background-color: #000;
+}
+div.hdrWrap>div.menuTop>ul.info{
+    display: none;
+}
+div.hdrWrap>div.menuTop{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.menuTop>div.logo{
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+div.hdrWrap>div.menuTop>ul.nav{
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-left: 0px;
+
+}
+div.hdrWrap>div.menuTop>ul.nav>li{
+    line-height: 80px;
+    width: calc(100% / 4);
+    margin-left: 0px;
+}
+div.hdrWrap>div.menuTop>ul.nav>li:nth-child(1){
+    margin-left: 0px;
+}
+
+
+
+
+/* 메인 */
+div.mainWrap{
+    margin-top: 0px;
+    background-image: url(../images/main_tab.png);
+    background-size: cover;
+    margin-top: 0px;
+    height: 1000px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+}
+
+div.mainWrap>div.main>div.images>div{
+    display: none;
+}
+/* 이미지-스탬프 */
+div.mainWrap>div.main>div.images>div:nth-last-child(1){
+    display: block;
+    height: 400px;
+    width: 100%;
+    left: 100px;
+    top: 630px;
+}
+
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 85px;
+    line-height: 80px;
+    width: calc(100% / 8 * 5);
+    text-shadow: 8px 8px 8px #000;
+}
+div.mainWrap>div.main>div.texts{
+    padding-left: 0px;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 18px;
+    line-height: 40px;
+    padding-left: 0px;
+    width: 100%;
+    margin-top: 30px;
+    text-shadow: 8px 8px 8px #000;
+}
+div.mainWrap>div.main>div.texts>div.btn{
+    display: none;
+}
+
+/* 컨텐츠 공통 */
+
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content>div.header>h3{
+    font-size: 32px;
+}
+div.cntWrap>div.content>div.header>p{
+    font-size: 18px;
+    width: calc(100% / 8 * 5);
+    margin-top: 40px;
+}
+
+/* 컨텐츠 1 */
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts {
+    width: calc(100% / 8 * 3);
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+    font-size: 30px;
+    padding-left: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumb{
+    margin-top: -440px;
+    width: calc(100% / 12 * 3 - 20px);
+}
+div.cntWrap>div.content.cnt01>div.section>div.thumb>div.image{
+    height: 100px;
+
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+    width: calc(100% / 8 * 4 - 20px);
+    height: 440px;
+    background-size: cover;
+    background-position: center;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>ul.paging{
+    margin-left: calc(100% / 12 * 1.6);
+}
+
+/* 컨텐츠 2 */
+div.cntWrap>div.content.cnt02{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt02>div.section::before{
+    margin-left: min(calc((100vw - 700px) / -2),calc((100vw - 90vw) / -2));
+    overflow-x: hidden;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 360px;
+}
+
+div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image:nth-child(4)~div.image{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div:nth-child(1){
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div:nth-child(2){
+    font-size: 14px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image{
+    width: calc(100% / 4 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    padding: 24px 12px 0px;
+}
+div.cntWrap>div.content.cnt02>div.section{}
+
+div.cntWrap>div.content.cnt02>div.section>div.article>div.btn{
+    margin-top: -150px;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    width: 100%;
+}
+
+/* memebership */
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i1{
+    background-image: url('../images/tab-membership_01.png');
+    background-size: cover;
+    background-color: #333;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i2{
+    background-image: url('../images/tab-membership_02.png');
+    background-size: cover;
+    background-color: #222;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image.i3{
+    background-image: url('../images/tab-membership_03.png');
+    background-size: cover;
+    background-color: #000;
+}
+
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    width: calc(100% / 8 * 6);
+    position: relative;
+    margin: 0 calc(100% / 8);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article:nth-child(1)~div.article{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>ul.texts{
+    margin-top: 20px;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    left: calc(100% / 6);
+    width: calc(100% / 8 * 7.3);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>ul.texts>li{
+    line-height: 20px;
+    width: 80%;
+
+}
+div.cntWrap>div.content.cnt02>div.section>div.thumb{
+    margin-top: -60px;
+}
+
+/* 배너 */
+div.bnrWrap{
+}
+div.bnrWrap>div.banner.bnr01{
+    position: inherit;
+    width: 100vw;
+    height: 480px;
+}
+div.bnrWrap>div.banner.bnr01>div.image{
+    position: inherit;
+}
+div.bnrWrap>div.banner.bnr01>div.image>div.ovrGrid{
+    width: 100vw;
+    margin-left: 0;
+    background-image: url(../images/tab-at\ home_01.png);
+}
+div.bnrWrap>div.banner.bnr01>div.texts{
+    position: inherit;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
+    width: 100vw;
+    height: 240px;
+}
+
+div.bnrWrap>div.banner.bnr01>div.texts>p{
+    width: 50%;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
+    display: none;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h4{
+    margin-top: -190px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>p{
+    line-height: 30px;
+}
+
+/* 브랜드 4  */
+div.cntWrap>div.content.cnt04>div.section>div.article:nth-child(1){
+    margin: 0px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.texts{
+    font-size: 18px;
+}
+
+/* 애슐리 sns */
+div.bnrWrap>div.banner.bnr02{
+    width: 80%;
+    max-width: 700px;
+}
+div.bnrWrap>div.banner.bnr02>h3{
+    font-size: 32px;
+    width: calc(100% / 8 * 2.5);
+    margin-left: 0px;
+    text-align: center;
+}
+div.bnrWrap>div.banner.bnr02>ul.sns{
+    width: calc(100% / 8 * 5);
+}
+div.bnrWrap>div.banner.bnr02>ul.sns>li{
+    width: calc(100% / 4 - 20px);
+}
+div.bnrWrap>div.banner.bnr02>h3::before{
+    float: none;
+    margin: 0 auto;
+}
+
+/* 푸터 */
+div.ftrWrap{}
+div.ftrWrap>div.footer{}
+div.ftrWrap>div.footer>div.ftrTop{
+    position: inherit;
+    width: 100vw;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    position: inherit;
+    width: 100vw;
+    height: 280px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts{
+    width: 90%;
+    max-width: 700px;
+}
+
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    font-size: 15px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>ul{
+    width: 100%;
+
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>p{
+    float: none;
+    font-size: 15px;
+    margin-left: calc(100% / 10);
+    width: 80%;
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>select{
+    float: none;
+    margin-left: calc(100% / 8 * 3.3);
+    font-size: 15px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    margin: 0 auto;
+}

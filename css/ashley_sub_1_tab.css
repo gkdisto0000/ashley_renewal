@@ -1,0 +1,272 @@
+
+/* 불필요한 스크롤 삭제 */
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* 헤더 */
+div.hdrWrap{
+    background-color: #000;
+}
+div.hdrWrap>div.menuTop>ul.info{
+    display: none;
+}
+div.hdrWrap>div.menuTop{
+    width: 90%;
+    max-width: 700px;
+}
+div.hdrWrap>div.menuTop>div.logo{
+    width: 100%;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+div.hdrWrap>div.menuTop>ul.nav{
+    width: 100%;
+    font-size: 18px;
+    line-height: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-left: 0px;
+
+}
+div.hdrWrap>div.menuTop>ul.nav>li{
+    line-height: 80px;
+    width: calc(100% / 4);
+    margin-left: 0px;
+}
+div.hdrWrap>div.menuTop>ul.nav>li:nth-child(1){
+    margin-left: 0px;
+}
+/* 메인 */
+div.mainWrap{
+    margin-top: 0px;
+    height: 120px;
+}
+div.mainWrap>div.main{
+    padding-top: 30px;
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 27px;
+    height: 40px;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* 컨텐츠 메인 */
+div.cntMainWrap{
+    margin-top: 0px;
+    height: 160px;
+    background-image: url('../images/sub_1/sub-main-2-tab.png');
+}
+div.cntMainWrap>div.cntMain{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntMainWrap>div.cntMain>div.texts>h2{
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    width: 50%;
+}
+
+
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt01>div.header>h3{
+    font-size: 32px;
+    width: calc(100% / 8 * 2.5);
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    font-size: 15px;
+    width: calc(100% / 8 * 6);
+}
+
+/* 컨텐츠 1 */
+
+div.cntWrap>div.content.cnt01>div.section{
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView{
+    overflow-x: hidden;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
+    width: calc((100% / 4 - 10px));
+    margin: 0px 5px;
+    float: left;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image{
+    width: 100%;
+    height: 180px;
+    background-color: bisque;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i1{
+    background-image: url('../images/sub_1/sub-cnt01-01.png');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i2{
+    background-image: url('../images/sub_1/sub-cnt01-02.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i3{
+    background-image: url('../images/sub_1/sub-cnt01-03.jpg');
+}
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>div.image.i4{
+    background-image: url('../images/sub_1/sub-cnt01-04.png');
+}
+
+
+/* 컨텐츠 2 */
+div.cntWrap>div.content.cnt02>div.header{}
+div.cntWrap>div.content.cnt02>div.header>div.image{
+    width: 100%;
+    height: 360px;
+    float: none;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt02>div.header>div.image>div.like>i{
+    margin-top: 300px;
+}
+div.cntWrap>div.content.cnt02>div.header>div.btns{
+    width: 100%;
+    margin-top: -200px;
+    font-size: 45px;
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>h3{
+    float: left;
+    font-size: 32px;
+    height: 160px;
+    width: calc(100% / 8 * 3);
+    text-align: center;
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>div.btn{
+    float: left;
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>h5{
+    margin-left: calc(100% / 12);
+    font-size: 16px;
+    width: calc(100% / 8 * 4);
+    float: left;
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>p{
+    float: left;
+    width: calc(100% / 8 * 4);
+    margin-left: calc(100% / 12);
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>div.btn{
+    font-size: 25px;
+    width: calc(100% / 8);
+    margin-left: calc(100% / 12);
+}
+div.cntWrap>div.content.cnt02>div.header>div.texts>div.btn>p{
+    font-size: 15px;
+}
+
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: 40px;
+}
+
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article:nth-child(3)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article:nth-child(3)~div.article{
+    display: none;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article{
+    width: calc(100% / 3 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article{
+    width: calc(100% / 3 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop>div.article>div.image{
+    height: 140px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm>div.article>div.image{
+    height: 140px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artTop{
+    height: 180px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artBtm{
+    height: 180px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btn{
+    width: calc(100% / 8 * 2);
+    font-size: 13px;
+}
+
+/* 팝업 */
+div.lightBox>div.image{
+    width: 90vw;
+    height: 90vw;
+}
+
+
+div.lightBox>div.btn{
+    top: 15%;
+    right: 5%;
+}
+
+
+/* 푸터 */
+div.ftrWrap{}
+div.ftrWrap>div.footer{}
+div.ftrWrap>div.footer>div.ftrTop{
+    position: inherit;
+    width: 100vw;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    position: inherit;
+    width: 100vw;
+    height: 280px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts{
+    width: 90%;
+    max-width: 700px;
+}
+
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    font-size: 15px;
+}
+div.ftrWrap>div.footer>div.ftrTop>div.info>ul{
+    width: 100%;
+
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>p{
+    float: none;
+    font-size: 15px;
+    margin-left: calc(100% / 10);
+    width: 80%;
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>select{
+    float: none;
+    margin-left: calc(100% / 8 * 3.3);
+    font-size: 15px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    margin: 0 auto;
+}

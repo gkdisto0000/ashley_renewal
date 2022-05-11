@@ -1,0 +1,265 @@
+/* 헤더 */
+div.hdrWrap>div.menuTop>div.logo{
+    width: 100%;
+    line-height: 25px;
+    height: 25px;
+    margin-top: 20px;
+}
+div.hdrWrap>div.menuTop>ul.nav{
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    height: 40px;
+    margin: 0 auto;
+    margin-left: 0px;
+}
+div.hdrWrap>div.menuTop>ul.nav>li{
+    font-size: 8px;
+    line-height: 20px;
+    width: calc(100% / 4);
+    margin: 0px;
+    margin: 10px 0px;
+    
+}
+
+/* 메인 */
+div.mainWrap>div.main>div.texts>h2{
+    font-size: 25px;
+}
+div.mainWrap>div.main>div.texts>p{
+    font-size: 13px;
+}
+div.mainWrap{
+    height: 80px;
+}
+div.mainWrap>div.main{
+    padding-top: 5px;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap>div.content div.header h3 {
+    font-size: 28px;
+}
+div.cntWrap{
+    margin-top: 40px;
+}
+
+
+/* 배너 공통 */
+div.bnrWrap{
+    margin-top: 40px;
+}
+
+/* 컨텐츠 1 service */
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.tabs>div.tab>i{
+    font-size: 45px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.tabs>div.tab>h4{
+    font-size: 13x;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.tabs::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.tabs>div.tab{
+    float: left;
+    width: 50%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
+    width: calc(50% - 20px);
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h5{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h5{
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
+    width: calc(52%);
+    height: 260px;
+}
+
+div.cntWrap>div.content.cnt01>div.section>div.article>div.view{
+    width: calc(100% / 4 * 2.1);
+    margin-right: 0px;
+    height: 260px;
+}
+
+/* banner2 store guide */
+div.bnrWrap.bnrWrap01{
+    height: 400px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.texts>h3{
+    font-size: 28px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.texts>p{
+    font-size: 13px;
+    width: calc(100% / 8 * 5);
+    margin-left: calc(100% / 4 * 0.7);
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.btn{
+    font-size: 9px;
+    float: none;
+    margin: initial;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker>i{
+    font-size: 20px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(1){
+    left: calc(100% / 12 * 5.7);
+    top: 60px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(2){
+    top: 140px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(3){
+    left: calc(100% / 12 * 4);
+    top: 140px;
+}
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker:nth-child(4){
+    left: calc(100% / 12 * 7);
+    top: 20px;
+}
+
+div.bnrWrap.bnrWrap01>div.banner.bnr01>div.markers>div.marker>p{
+    font-size: 11px;
+}
+
+/* 컨텐츠 2 product */
+
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 240px;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    height: 240px;
+    overflow: hidden;
+}
+div.cntWrap>div.content.cnt02>div.header>p{
+    font-size: 11px;
+}
+div.cntWrap>div.content.cnt02>div.header>p>br{
+    display: none;
+    text-align: left;
+}
+div.cntWrap>div.content.cnt02>div.header{
+    margin: 0;
+    width: calc(100% / 4 * 1.5);
+}
+div.cntWrap>div.content.cnt02>div.section{
+    /* width: 100%; */
+}
+div.cntWrap>div.content.cnt02>div.header{
+    /* width: 100%; */
+    text-align: center;
+}
+div.cntWrap>div.content.cnt02>div.header>h3{
+    margin-top: 0px;
+}
+
+/* banner3 home restaurant */
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>h3{
+    font-size: 28px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>h4{
+    font-size: 13px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>div.tags>div.tagBtm{
+    display: none;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>div.tags>div.tagTop>p{
+    font-size: 13px;
+    margin: 0px 10px;
+}
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.texts>div.tags{
+    width: calc(100% / 4 * 3.5);
+    text-align: center;
+    margin-top: 0px;
+}
+
+div.bnrWrap.bnrWrap02>div.banner.bnr02>div.video{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0px;
+    height: 200px;
+}
+
+/* 컨텐츠 3 ashley mealkit */
+div.cntWrap>div.content.cnt03>div.header>p{
+    font-size: 13px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image.i1{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article{
+    margin: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.texts>h5{
+    font-size: 13px;
+}
+div.cntWrap>div.content.cnt03>div.section div.article>div.texts>p{
+    font-size: 11px;
+}
+
+div.cntWrap>div.content.cnt03>div.section>div.artTop>div.article>div.image{
+    height: 240px;
+}
+
+
+/* paging */
+div.cntWrap>div.content.cnt03>div.section>ul.paging::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging{
+    width: calc(100% / 12 * 3);
+    height: 40px;
+    /* 점 없애기 */
+    list-style: none;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li.on{
+    width: 25px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li{
+    width: 7px;
+    height: 7px;
+    background-color: #222;
+    float: left;
+    border-radius: 10px;
+    margin: 2px;
+    margin-top: 20px;
+}
+
+
+/* 푸터 */
+div.ftrWrap{
+    margin-top: 40px;
+}
+
+div.ftrWrap>div.footer>div.ftrTop>div.info{
+    font-size: 9px;
+    line-height: 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>select{
+    font-size: 8px;
+    height: 20px;
+    width: calc(100% / 4);
+    margin-left: calc(100% / 4 * 1.5);
+
+}
+div.ftrWrap>div.footer>div.ftrBtm>div.texts>p{
+    font-size: 9px;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    height: 160px;
+    padding-top: 20px;
+}
