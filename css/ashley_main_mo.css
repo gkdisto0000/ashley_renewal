@@ -36,7 +36,7 @@ div.mainWrap{
     background-image: url(../images/main_mo.png);
 }
 
-div.mainWrap>div.main>div.texts>h2{
+div.mainWrap>div.main>div.texts>.text{
     font-size: 45px;
     line-height: 45px;
 }
@@ -44,7 +44,7 @@ div.mainWrap>div.main>div.texts>h2{
 div.mainWrap>div.main>div.texts>p{
     font-size: 12px;
 }
-div.mainWrap>div.main>div.texts>h2>div:nth-child(2){
+div.mainWrap>div.main>div.texts>.text>div:nth-child(2){
     line-height: 40px;
 }
 div.mainWrap>div.main>div.texts>p{
@@ -197,7 +197,7 @@ div.bnrWrap>div.banner.bnr01>div.image>div.ovrGrid{
 div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
     height: 120px;
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4{
+div.bnrWrap>div.banner.bnr01>div.texts>.text{
     font-size: 24px;
     margin-left: calc(100% / 8);
     margin-top: -110px;

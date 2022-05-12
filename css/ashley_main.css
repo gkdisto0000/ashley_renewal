@@ -42,6 +42,12 @@ div.hdrWrap>div.menuTop>div.logo{
     background-repeat: no-repeat;
     background-image: url('../images/logo.png');
     margin-top: 10px;
+    cursor: pointer;
+}
+div.hdrWrap>div.menuTop>div.logo>a{
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 div.hdrWrap>div.menuTop>ul.nav::after{
     display: block;
@@ -93,7 +99,7 @@ div.hdrWrap>div.menuTop>ul.info>li:nth-child(1){
 div.mainWrap{
     background-color: #000;
     margin-top: -80px;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../images/main-01_bg.png');
@@ -116,7 +122,7 @@ div.mainWrap>div.main>div.texts{
     padding-top: 40px;
     padding-left: calc(100% / 12 * 2);
 }
-div.mainWrap>div.main>div.texts>h2{
+div.mainWrap>div.main>div.texts>.text{
     line-height: 40px;
     font-size: 55px;
     text-transform: uppercase;
@@ -125,10 +131,10 @@ div.mainWrap>div.main>div.texts>h2{
     width: calc(100% / 12 * 8);
 }
 
-div.mainWrap>div.main>div.texts>h2>div:nth-child(2){
+div.mainWrap>div.main>div.texts>.text>div:nth-child(2){
     line-height: 80px;
 }
-div.mainWrap>div.main>div.texts>h2>div:nth-child(3){
+div.mainWrap>div.main>div.texts>.text>div:nth-child(3){
     color: #f5f5bf;
 }
 div.mainWrap>div.main>div.texts>p{
@@ -153,6 +159,12 @@ div.mainWrap>div.main>div.texts>div.btn{
     transition: all 0.5s;
     cursor: pointer;
 }
+div.mainWrap>div.main>div.texts>div.btn>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 
 div.mainWrap>div.main>div.texts>div.btn:hover{
     opacity: 1;
@@ -230,7 +242,6 @@ div.cntWrap>div.content>div.header::before{
 div.cntWrap>div.content>div.header{
     text-align: center;
 }
-div.cntWrap>div.content>div.header>i{}
 div.cntWrap>div.content>div.header>h3{
     line-height: 40px;
     font-size: 25px;
@@ -263,7 +274,12 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
     background-color: #ccc;
     height: 320px;
     float: left;
-    background-image: url('../images/cnt01_01.jpg');
+    background-image: url('../images/cnt01_01_03.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
     float: left;
@@ -294,17 +310,21 @@ div.cntWrap>div.content.cnt01>div.section>div.thumb>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: grayscale(1);
+    width: 100%;
+
 }
 div.cntWrap>div.content.cnt01>div.section>div.thumb>div.image.i1{
-    background-image: url('../images/cnt01_02.jpg');
+    background-image: url('../images/cnt01_01_03.jpg');
     cursor: pointer;
+    filter: grayscale(0);
 }
 div.cntWrap>div.content.cnt01>div.section>div.thumb>div.image.i2{
-    background-image: url('../images/cnt01_03.jpg');
+    background-image: url('../images/cnt01_02_03.jpg');
     cursor: pointer;
 }
 div.cntWrap>div.content.cnt01>div.section>div.thumb>div.image.i3{
-    background-image: url('../images/cnt01_04.jpg');
+    background-image: url('../images/cnt01_03_03.jpg');
     cursor: pointer;
 }
 
@@ -319,16 +339,18 @@ div.cntWrap>div.content.cnt01>div.section>ul.paging{
 div.cntWrap>div.content.cnt01>div.section>ul.paging>li{
     width: 10px;
     height: 10px;
-    background-color: #222;
+    background-color: #141d60;
     float: left;
     border-radius: 10px;
     margin: 10px;
     margin-top: 20px;
-
+    transition: all 0.5s;
+    cursor: pointer;
 }
-div.cntWrap>div.content.cnt01>div.section>ul.paging>li.on{
+div.cntWrap>div.content.cnt01>div.section>ul.paging>li.show{
     width: 25px;
 }
+
 
 
 /* 컨텐츠2 global food */
@@ -356,7 +378,6 @@ div.cntWrap>div.content.cnt02{
 div.cntWrap>div.content.cnt02>div.header>p{
     width: calc(100% / 12 * 5.5);
 }
-div.cntWrap>div.content.cnt02>div.section{}
 div.cntWrap>div.content.cnt02>div.section>div.article{
     margin-top: -320px;
 }
@@ -368,7 +389,8 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/cnt02_01.png');
+    background-image: url('../images/cnt02_01_01.jpg');
+    transition: all 0.5s;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
     width: calc(100% / 12 * 3);
@@ -384,7 +406,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>div:nth-child(2){
     color: #f5f5bf;
-    font-size: 16px;
+    font-size: 18px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.btn::after{
     clear: both;
@@ -398,7 +420,11 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.btn{
     text-align: center;
     margin-left: 10px;
     font-size: 40px;
-    color: #fff;
+    color: #f5f5bf;
+    text-shadow: 3px 3px 5px #000;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.btn>i{
+    display: none;
 }
 div.cntWrap>div.content.cnt02>div.section>div.article>div.btn>i:nth-child(1){
     float: left;
@@ -426,24 +452,26 @@ div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image{
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    filter: grayscale(1);
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i1{
-    background-image: url('../images/cnt02_02.jpg');
+    background-image: url('../images/cnt02_01_01.jpg');
+    filter: grayscale(0);
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i2{
-    background-image: url('../images/cnt02_03.jpg');
+    background-image: url('../images/cnt02_02_01.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i3{
-    background-image: url('../images/cnt02_04.jpg');
+    background-image: url('../images/cnt02_03_01.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i4{
-    background-image: url('../images/cnt02_05.jpg');
+    background-image: url('../images/cnt02_04_01.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i5{
-    background-image: url('../images/cnt02_06.jpg');
+    background-image: url('../images/cnt02_05_01.jpg');
 }
 div.cntWrap>div.content.cnt02>div.section>div.thumb>div.image.i6{
-    background-image: url('../images/cnt02_07.jpg');
+    background-image: url('../images/cnt02_06_02.jpg');
 }
 
 /* 컨텐츠3 membership*/
@@ -514,7 +542,6 @@ div.bnrWrap>div.banner div.texts h4{
 div.bnrWrap>div.banner div.texts p{
     font-family: 'SUIT-Regular';
 }
-div.bnrWrap>div.banner div.texts div.btn{}
 
 /* 배너1 at home */
 div.bnrWrap>div.banner.bnr01{
@@ -546,7 +573,7 @@ div.bnrWrap>div.banner.bnr01>div.texts{
     position: absolute;
     right: 0 ;
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4>div:nth-child(2){
+div.bnrWrap>div.banner.bnr01>div.texts>.text>div:nth-child(2){
     color: #151e63;
 }
 div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
@@ -559,7 +586,7 @@ div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
     background-repeat: no-repeat;
     background-image: url('../images/bnr02-2.png');
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4{
+div.bnrWrap>div.banner.bnr01>div.texts>.text{
     margin-left: calc(100% / 8 * 2);
     line-height: 40px;
     font-size: 35px;
@@ -596,6 +623,12 @@ div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
     transition: all 0.5s;
     cursor: pointer;
 }
+div.bnrWrap>div.banner.bnr01>div.texts>div.btn>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 
 /* 컨텐츠4 brand*/
 div.cntWrap>div.content.cnt04>div.section::after{
@@ -709,7 +742,7 @@ div.bnrWrap>div.banner.bnr02>h3{
 div.bnrWrap>div.banner.bnr02>ul.sns>li:hover{
     background-color: #f5f5bf;
 }
-div.bnrWrap>div.banner.bnr02>ul.sns>li:hover>i{
+div.bnrWrap>div.banner.bnr02>ul.sns>li:hover i{
     color: #141d60;
     text-shadow: 2px 2px 2px #000;
     font-size: 60px;
@@ -728,12 +761,24 @@ div.bnrWrap>div.banner.bnr02>ul.sns>li{
     text-align: center;
     cursor: pointer;
     transition: all 0.5s;
+    position: relative;
 }
-div.bnrWrap>div.banner.bnr02>ul.sns>li>i{
+div.bnrWrap>div.banner.bnr02>ul.sns>li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+div.bnrWrap>div.banner.bnr02>ul.sns>li i{
     color: #fff;
     line-height: 80px;
     font-size: 45px;
     transition: all 0.3s;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
