@@ -122,7 +122,7 @@ div.mainWrap>div.main>div.texts{
     padding-top: 40px;
     padding-left: calc(100% / 12 * 2);
 }
-div.mainWrap>div.main>div.texts>h2{
+div.mainWrap>div.main>div.texts>.text{
     line-height: 40px;
     font-size: 55px;
     text-transform: uppercase;
@@ -131,10 +131,10 @@ div.mainWrap>div.main>div.texts>h2{
     width: calc(100% / 12 * 8);
 }
 
-div.mainWrap>div.main>div.texts>h2>div:nth-child(2){
+div.mainWrap>div.main>div.texts>.text>div:nth-child(2){
     line-height: 80px;
 }
-div.mainWrap>div.main>div.texts>h2>div:nth-child(3){
+div.mainWrap>div.main>div.texts>.text>div:nth-child(3){
     color: #f5f5bf;
 }
 div.mainWrap>div.main>div.texts>p{
@@ -573,7 +573,7 @@ div.bnrWrap>div.banner.bnr01>div.texts{
     position: absolute;
     right: 0 ;
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4>div:nth-child(2){
+div.bnrWrap>div.banner.bnr01>div.texts>.text>div:nth-child(2){
     color: #151e63;
 }
 div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
@@ -586,7 +586,7 @@ div.bnrWrap>div.banner.bnr01>div.texts>div.ovrGrid{
     background-repeat: no-repeat;
     background-image: url('../images/bnr02-2.png');
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4{
+div.bnrWrap>div.banner.bnr01>div.texts>.text{
     margin-left: calc(100% / 8 * 2);
     line-height: 40px;
     font-size: 35px;
@@ -742,7 +742,7 @@ div.bnrWrap>div.banner.bnr02>h3{
 div.bnrWrap>div.banner.bnr02>ul.sns>li:hover{
     background-color: #f5f5bf;
 }
-div.bnrWrap>div.banner.bnr02>ul.sns>li:hover>i{
+div.bnrWrap>div.banner.bnr02>ul.sns>li:hover i{
     color: #141d60;
     text-shadow: 2px 2px 2px #000;
     font-size: 60px;

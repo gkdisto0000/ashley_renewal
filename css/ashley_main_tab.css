@@ -67,7 +67,7 @@ div.mainWrap>div.main>div.images>div:nth-last-child(1){
     top: 630px;
 }
 
-div.mainWrap>div.main>div.texts>h2{
+div.mainWrap>div.main>div.texts>.text{
     font-size: 85px;
     line-height: 80px;
     width: calc(100% / 8 * 5);
@@ -244,7 +244,7 @@ div.bnrWrap>div.banner.bnr01>div.texts>p{
 div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
     display: none;
 }
-div.bnrWrap>div.banner.bnr01>div.texts>h4{
+div.bnrWrap>div.banner.bnr01>div.texts>.text{
     margin-top: -190px;
 }
 div.bnrWrap>div.banner.bnr01>div.texts>p{
