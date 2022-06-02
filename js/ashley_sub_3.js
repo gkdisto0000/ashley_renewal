@@ -1,12 +1,11 @@
 $(function () {
 
-  // 변수 선언문
-
   var cnt01Art = $('div.cntWrap>div.content.cnt01 div.article');
   var cnt01Li = $('div.cntWrap>div.content.cnt01>div.section>div.artWrap>div.arrowWrap>ul>li');
   var cont01ArtWrap = $('div.cntWrap>div.content.cnt01>div.section>div.artWrap');
   var cnt01Slide = $('div.cntWrap>div.content.cnt01>div.wrap>div.artGroup>div.slide');
 
+  // cnt01
   $(cnt01Art).mouseenter(function () {
     var ind = $(this).index();
     console.log(ind);
@@ -15,14 +14,11 @@ $(function () {
     });
   });
 
-
-  // 동그라미 적용
   $(cnt01Art).mouseover(function () {
     var ind = $(this).index();
     $(cnt01Li).eq(ind).css({
       backgroundColor: '#f5f5bf'
     });
-
   });
 
   $(cnt01Art).mouseleave(function () {
@@ -42,5 +38,4 @@ $(function () {
       filter: 'grayscale(0)'
     });
   });
-
 });
